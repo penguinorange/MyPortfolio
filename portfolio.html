@@ -33,11 +33,23 @@ h1  {
 
 .row3 {
   background-color: tan;
-  padding: 20px;  
+  padding-top: 20px; 
+  padding-bottom: 500px; 
   border: solid; 
   border-width: 5px; 
   border-color:black;
 }
+
+.col-md-9 {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+}
+
 </style>
 </head>
 <body>
@@ -62,19 +74,21 @@ h1  {
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div class="row2">
-          <h1>About Me</h1>
+          <h1>Portfolio</h1>
         </div>
         <div class="row3">
           <div class="col-md-9">
-            <img src="http://placehold.it/350x350" alt="Placeholder" class="img-thumbnail" align=left>          
-            <img src="http://placehold.it/350x350" alt="Placeholder" class="img-thumbnail" align=left>
-            <hr>
-            
+            <img src="http://placehold.it/300x300" alt="Placeholder" class="img-thumbnail">          
+            <div class="col-md-9">
+              <img src="http://placehold.it/300x300" alt="Placeholder" class="img-thumbnail">
+                <hr>
+            </div>
           </div>
         </div>
       </div>
-
+    </div>
+  </div>  
 </body>
 </html>
