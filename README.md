@@ -2,11 +2,12 @@
 
 Basic background info & catalog of works
 
-# Links
+## Links
 
  https://github.com/penguinorange/MyPortfolio
+
  https://penguinorange.github.io/MyPortfolio/
 
-# Special Thanks
+## Special Thanks
 
 Everyone
